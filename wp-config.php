@@ -28,7 +28,7 @@ define('DB_NAME', 'lisanestico');
 define('DB_USER', 'lisa');
 
 /** MySQL database password */
-define('DB_PASSWORD', '081219860');
+define('DB_PASSWORD', 'Lisa2016!');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -89,3 +89,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('PODS_SHORTCODE_ALLOW_SUB_SHORTCODES',true);

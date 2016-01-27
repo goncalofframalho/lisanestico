@@ -1,0 +1,89 @@
+.phrase {
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    color: $black;
+    text-align: center;
+
+    @media (min-width: $screen-xs-max) {
+        text-align: left;
+        font-size: 42px;
+        line-height: 48px;
+    }
+}
+
+.projects-list {
+    margin-top: 140px;
+    margin-bottom: 140px;
+    text-align: center;
+
+    @media (min-width: $screen-xs-max) {
+        text-align: left;
+    }
+
+    .project {
+        padding-top: 4em;
+        padding-bottom: 4em;
+
+        .title {
+            font-size: 30px;
+            line-height: 70px;
+
+            @media (min-width: $screen-xs-max) {
+                font-size: 50px;
+            }
+
+            a {
+                font-weight: bold;
+                padding-bottom: .5em;
+                border-bottom: 6px solid #3F3F3F;
+
+                &:hover {
+                    color: #767676;
+                    border: 0px;
+                }
+            }
+        }
+    }
+}
+
+.menus {
+    margin-top: 140px;
+    text-align: center;
+
+    @media (min-width: $screen-xs-max) {
+        text-align: left;
+    }
+
+    .nav-menu {
+
+        margin-bottom: 5em;
+
+        @media (min-width: $screen-xs-max) {
+            margin-bottom: 0px;
+        }
+
+        .menu-item {
+            margin-bottom: 20px;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+
+            a {
+                color: $black;
+                text-decoration: none;
+                border: 0px;
+                font-weight: 900;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #767676;
+                }
+            }
+
+            span {
+                color: $grey;
+                font-weight: normal;
+            }
+        }
+    }
+}

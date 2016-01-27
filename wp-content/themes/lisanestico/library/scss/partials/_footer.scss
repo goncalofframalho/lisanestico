@@ -1,0 +1,15 @@
+.footer {
+    padding: 90px 0px;
+    text-align: center;
+
+    @media (min-width: $screen-xs-max) {
+        text-align: left;
+    }
+
+    .copyright {
+        color: $grey;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+}

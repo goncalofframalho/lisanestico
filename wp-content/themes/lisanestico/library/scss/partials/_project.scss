@@ -1,0 +1,57 @@
+.post-project {
+    text-align: center;
+
+    .title {
+        margin-bottom: 40px;
+        font-size: 28px;
+        line-height: 28px;
+        color: #767676;
+        font-weight: 600;
+    }
+
+    .text {
+        font-size: 34px;
+        line-height: 38px;
+        letter-spacing: 0.5px;
+        color: $black;
+        margin-bottom: 40px;
+
+        @media (min-width: $screen-xs-max) {
+            font-size: 42px;
+            line-height: 48px;
+        }
+    }
+
+    .areas {
+        font-size: 22px;
+        line-height: 32px;
+        color: #767676;
+        margin-bottom: 20px;
+    }
+
+    .link {
+
+        a {
+            font-size: 16px;
+            line-height: 1.42857143;
+            font-weight: 600;
+        }
+    }
+
+    .media {
+        margin-top: 130px;
+        width: 100%;
+
+        .image {
+            margin: 22px 0px;
+
+            img {
+                width: 100%;
+
+                @media (min-width: $screen-xs-max) {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

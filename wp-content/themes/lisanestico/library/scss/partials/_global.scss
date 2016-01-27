@@ -1,0 +1,54 @@
+body {
+    font-family: $ProximaNova;
+    font-weight: 600;
+    background-color: $grey-light;
+}
+
+a {
+    color: $black;
+    border-bottom: 4px solid $black;
+    padding-bottom: .25em;
+
+    &:hover, &:active, &:focus {
+        color: #767676;
+        border-color: #767676;
+        text-decoration: none;
+    }
+}
+
+.area-label {
+    font-weight: bold;
+    color: $grey;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.topscroll {
+    margin-top: 4em;
+
+    @media (min-width: $screen-xs-max) {
+        margin-top: 0px
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.pagination-mobile {
+    display: block;
+}
+
+.pagination-desktop {
+    display: none;
+}
+
+@media (min-width: $screen-xs-max) {
+    .pagination-mobile {
+        display: none;
+    }
+
+    .pagination-desktop {
+        display: block;
+    }
+}
